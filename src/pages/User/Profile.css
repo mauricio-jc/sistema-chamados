@@ -1,0 +1,40 @@
+.imgs {
+    clear: both;
+    margin-bottom: 50px;
+}
+
+.imgs .image-upload {
+    position: relative;
+}
+
+.imgs .image-upload .thumbnail {
+    cursor: pointer;
+    position: relative;
+}
+
+.imgs .image-upload .thumbnail i {
+    position: absolute;
+    top: 45%;
+    text-align: center;
+    display: block;
+    width: 100%;
+}
+
+.imgs .image-upload .thumbnail img {
+    object-fit: cover;
+    border-radius: 100% !important;
+}
+
+.imgs .image-upload .input-file {
+    display: none;
+}
+
+.imgs .image-upload .badge {
+    z-index: 1000;
+    position: absolute;
+    top: -10px;
+    right: 2px;
+    cursor: pointer;
+    font-size: 18px;
+    display: none;
+}
